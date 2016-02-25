@@ -1,4 +1,4 @@
-﻿var TEXTO_BT_IMPRIMIR = ('<p align="center"><a href="#" class="btn btn-effect-ripple btn-primary" id="btn-visualiza">Imprimir o Certificado</a></p>');
+var TEXTO_BT_IMPRIMIR = ('<p align="center"><a href="#" class="btn btn-effect-ripple btn-primary" id="btn-visualiza">Imprimir o Certificado</a></p>');
 
  $(document).ready(function(){
 	//$('#modal-fade').modal({ keyboard: false });
@@ -174,6 +174,12 @@
 					$("#val-expeditor").val();
 					$("#val-ufexpeditor").val();
 					$("#val-dataexpedicao").val();
+					$.bootstrapGrowl('<h4><strong>'+ acentuarAlerts("Notificação") +'</strong></h4> <p>'+ acentuarAlerts(data.Mensagem) +'</p>', {
+						type: 'danger',
+						delay: 3000,
+						allow_dismiss: true,
+						offset: {from: 'top', amount: 20}
+					});
 				}
 			},
 			error: function(xhr, desc, err){

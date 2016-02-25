@@ -49,14 +49,14 @@ unset($obj2);
         <div class="row">
             <div class="col-sm-6">
                 <div class="header-section">
-                    <h1><?php echo htmlentities("Formulário de Venda", ENT_COMPAT,'ISO-8859-1', true); ?></h1>
+                    <h1><?php echo htmlentities("Formul?rio de Venda", ENT_COMPAT,'ISO-8859-1', true); ?></h1>
                 </div>
             </div>
             <div class="col-sm-6 hidden-xs">
                 <div class="header-section">
                     <ul class="breadcrumb breadcrumb-top">
                         <li>Home</li>
-						<li>Operações</li>
+						<li>Opera??es</li>
                         <li><a href="page_form_vendadireta.php">Venda</a></li>
                     </ul>
                 </div>
@@ -70,11 +70,11 @@ unset($obj2);
 		<!--<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>-->
 		<h4><strong>Venda Efetivada com sucesso.</strong></h4>
 		<p><strong>Numero do Certificado:</strong> <span id="texto_certificado"></span></p>
-		<p><strong>Valor do Prêmio:</strong> <span id="texto_premio"></span></p>
-		<p><strong>Título:</strong> <span id="texto_sorteio"></span></p>
-		<p><strong>Série:</strong> <span id="texto_serie"></span></p>
-		<p><strong>Número do Ingresso:</strong> <span id="texto_ingresso"></span></p>
-		<p align="center"><a href="#modal-fade" class="btn btn-effect-ripple btn-primary" data-toggle="modal">Opções de Comunicação</a></p>
+		<p><strong>Valor do Pr?mio:</strong> <span id="texto_premio"></span></p>
+		<p><strong>T?tulo:</strong> <span id="texto_sorteio"></span></p>
+		<p><strong>S?rie:</strong> <span id="texto_serie"></span></p>
+		<p><strong>N?mero do Ingresso:</strong> <span id="texto_ingresso"></span></p>
+		<p align="center"><a href="#modal-fade" class="btn btn-effect-ripple btn-primary" data-toggle="modal">Op??es de Comunica??o</a></p>
 		
 	</div>
 	<!-- END Success Alert -->
@@ -98,7 +98,7 @@ unset($obj2);
                     <div class="block-options pull-right">
                         <a href="javascript:void(0)" class="btn btn-effect-ripple btn-default" data-toggle="tooltip" title="Configuracoes"><i class="fa fa-cog"></i></a>
                     </div>
-                    <h2>Seguro Proteção de Ingresso</h2>
+                    <h2>Seguro Prote??o de Ingresso</h2>
                 </div>
                 <!-- END Clickable Wizard Title -->
 
@@ -111,7 +111,7 @@ unset($obj2);
                             <div class="col-xs-12">
                                 <ul class="nav nav-pills nav-justified clickable-steps">
                                     <li class="active"><a href="javascript:void(0)" data-gotostep="clickable-first"><i class="fa fa-user"></i> <strong>Cliente</strong></a></li>
-                                    <li><a href="javascript:void(0)" data-gotostep="clickable-second"><i class="fa fa-pencil-square-o"></i> <strong>Endereço</strong></a></li>
+                                    <li><a href="javascript:void(0)" data-gotostep="clickable-second"><i class="fa fa-pencil-square-o"></i> <strong>Endere?o</strong></a></li>
                                     <li><a href="javascript:void(0)" data-gotostep="clickable-third"><i class="fa fa-check"></i> <strong>Evento</strong></a></li>
                                 </ul>
                             </div>
@@ -177,13 +177,13 @@ unset($obj2);
                             </div>
                         </div>
 						<div class="form-group">
-                            <label class="col-md-4 control-label" for="val-expeditor">Orgão Expeditor</label>
+                            <label class="col-md-4 control-label" for="val-expeditor">Org?o Expeditor</label>
                             <div class="col-md-6">
                                 <input type="text" id="val-expeditor" name="val-expeditor" class="form-control" placeholder="Orgao expeditor .." />
                             </div>
                         </div>
 						<div class="form-group">
-                            <label class="col-md-4 control-label" for="val-ufexpeditor">UF Orgão Expeditor</label>
+                            <label class="col-md-4 control-label" for="val-ufexpeditor">UF Org?o Expeditor</label>
                             <div class="col-md-6">
                                 <select id="val-ufexpeditor" name="val-ufexpeditor" class="form-control">
 									<option value="">Selecione</option>
@@ -198,7 +198,7 @@ unset($obj2);
                             </div>
                         </div>
 						<div class="form-group">
-                            <label class="col-md-4 control-label" for="val-dataexpedicao">Data de Expedição</label>
+                            <label class="col-md-4 control-label" for="val-dataexpedicao">Data de Expedi??o</label>
                             <div class="col-md-6">
                                 <input type="text" id="val-dataexpedicao" name="val-dataexpedicao" class="form-control" placeholder="Data de expedicao.." />
                             </div>
@@ -213,7 +213,7 @@ unset($obj2);
                             <div class="col-xs-12">
                                 <ul class="nav nav-pills nav-justified clickable-steps">
                                     <li><a href="javascript:void(0)" class="text-muted" data-gotostep="clickable-first"><i class="fa fa-user"></i> <del><strong>Cliente</strong></del></a></li>
-                                    <li class="active"><a href="javascript:void(0)" data-gotostep="clickable-second"><i class="fa fa-pencil-square-o"></i> <strong>Endereço</strong></a></li>
+                                    <li class="active"><a href="javascript:void(0)" data-gotostep="clickable-second"><i class="fa fa-pencil-square-o"></i> <strong>Endere?o</strong></a></li>
                                     <li><a href="javascript:void(0)" data-gotostep="clickable-third"><i class="fa fa-check"></i> <strong>Evento</strong></a></li>
                                 </ul>
                             </div>
@@ -233,7 +233,7 @@ unset($obj2);
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-md-4 control-label" for="val-logradouron">Número</label>
+                            <label class="col-md-4 control-label" for="val-logradouron">N?mero</label>
                             <div class="col-md-6">
                                 <input type="text" id="val-logradouron" name="val-logradouron" class="form-control" placeholder="Numero ..">
                             </div>
@@ -281,7 +281,7 @@ unset($obj2);
                             <div class="col-xs-12">
                                 <ul class="nav nav-pills nav-justified clickable-steps">
                                     <li><a href="javascript:void(0)" class="text-muted" data-gotostep="clickable-first"><i class="fa fa-user"></i> <del><strong>Cliente</strong></del></a></li>
-                                    <li><a href="javascript:void(0)" class="text-muted" data-gotostep="clickable-second"><i class="fa fa-pencil-square-o"></i> <del><strong>Endereço</strong></del></a></li>
+                                    <li><a href="javascript:void(0)" class="text-muted" data-gotostep="clickable-second"><i class="fa fa-pencil-square-o"></i> <del><strong>Endere?o</strong></del></a></li>
                                     <li class="active"><a href="javascript:void(0)" data-gotostep="clickable-third"><i class="fa fa-check"></i> <strong>Evento</strong></a></li>
                                 </ul>
                             </div>
@@ -309,7 +309,7 @@ unset($obj2);
                             </div>
                         </div>
 						<div class="form-group">
-                            <label class="col-md-4 control-label" for="val-ingresso">Número do Ingresso</label>
+                            <label class="col-md-4 control-label" for="val-ingresso">N?mero do Ingresso</label>
                             <div class="col-md-6">
                                 <input id="val-ingresso" name="val-ingresso" class="form-control" placeholder="Numero do ingresso" />
                             </div>
@@ -322,7 +322,7 @@ unset($obj2);
                             </div>
                         </div>
 						<div class="form-group">
-                            <span class="col-md-4 control-label" >Valor do Prêmio: R$</span>
+                            <span class="col-md-4 control-label" >Valor do Pr?mio: R$</span>
 							<span class="col-md-6 control-label" id="lbl_vlrpremiocalc">0,00</span>
                         </div>
                     </div>
@@ -378,7 +378,7 @@ unset($obj2);
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h3 class="modal-title"><strong><?php echo htmlentities("Endereços", ENT_COMPAT,'ISO-8859-1', true); ?></strong></h3>
+					<h3 class="modal-title"><strong><?php echo htmlentities("Endere?os", ENT_COMPAT,'ISO-8859-1', true); ?></strong></h3>
 				</div>
 				<div class="modal-body">
 					<form id="form-endereco" action="ajax/comunicavenda.php" method="post" class="form-horizontal form-bordered">
@@ -419,8 +419,8 @@ unset($obj2);
 						<p align="center">
 							<a href="#" class="btn btn-effect-ripple btn-primary" id="btn-visualiza">Imprimir o Certificado</a>
 						</p>
-						<h4>Comunicação de boas vindas</h4>
-								<!--<a href="#" class="btn btn-effect-ripple btn-primary" id="btn-boasvindas">Comunicação de Boas Vindas</a>-->
+						<h4>Comunica??o de boas vindas</h4>
+								<!--<a href="#" class="btn btn-effect-ripple btn-primary" id="btn-boasvindas">Comunica??o de Boas Vindas</a>-->
 								<div class="form-group">
 									<label class="col-md-3 control-label">Escolha</label>
 									<div class="col-md-9">
